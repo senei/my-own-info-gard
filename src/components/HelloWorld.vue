@@ -10,7 +10,7 @@
 
 <script lang="ts">
 import { defineComponent, toRef } from 'vue'
-import { globalState } from '../store'
+import { state } from '../store'
 
 export default defineComponent({
   props: {
@@ -19,7 +19,7 @@ export default defineComponent({
 
   setup() {
     return {
-      count: toRef(globalState, 'count'),
+      count: toRef(state, 'count'),
     }
   },
 })
