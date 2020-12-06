@@ -1,10 +1,10 @@
 {
-  "name": "vite-ts-tailwind-starter",
-  "version": "0.4.2",
+  "name": "info-gard",
+  "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "yarn dev & wait-on http://localhost:3000",
+    "start": "vite & wait-on http://localhost:8080",
     "test": "cypress open",
     "test:ci": "cypress run --headless"
   },
